@@ -1,0 +1,141 @@
+{
+  "id": "38a97442efdab3ed25b2ef2d63783761",
+  "_format": "hh-sol-build-info-1",
+  "solcVersion": "0.8.9",
+  "solcLongVersion": "0.8.9+commit.e5eed63a",
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "contracts/Raffle.sol": {
+        "content": "// Raffle\n\n// Enter the lottery\n// Pick a randon winner (verifably random)\n// Winner to be selected every x minutes => completely automated\n\n// chainlink oracle -> Randomness, Automated Execution (Chainlink Keeper)\n\n// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.7;\n\ncontract Raffle {\n    \n}"
+      }
+    },
+    "settings": {
+      "optimizer": {
+        "enabled": false,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata",
+            "devdoc",
+            "userdoc",
+            "storageLayout",
+            "evm.gasEstimates"
+          ],
+          "": [
+            "ast"
+          ]
+        }
+      },
+      "metadata": {
+        "useLiteralContent": true
+      }
+    }
+  },
+  "output": {
+    "contracts": {
+      "contracts/Raffle.sol": {
+        "Raffle": {
+          "abi": [],
+          "devdoc": {
+            "kind": "dev",
+            "methods": {},
+            "version": 1
+          },
+          "evm": {
+            "bytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "linkReferences": {},
+              "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201429984e979acc2694d9a08fa488d39e8a0dd5afec82789d4a958d1afc009aa064736f6c63430008090033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 EQ 0x29 SWAP9 0x4E SWAP8 SWAP11 0xCC 0x26 SWAP5 0xD9 LOG0 DUP16 LOG4 DUP9 0xD3 SWAP15 DUP11 0xD 0xD5 0xAF 0xEC DUP3 PUSH25 0x9D4A958D1AFC009AA064736F6C634300080900330000000000 ",
+              "sourceMap": "274:24:0:-:0;;;;;;;;;;;;;;;;;;;"
+            },
+            "deployedBytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "immutableReferences": {},
+              "linkReferences": {},
+              "object": "6080604052600080fdfea26469706673582212201429984e979acc2694d9a08fa488d39e8a0dd5afec82789d4a958d1afc009aa064736f6c63430008090033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 EQ 0x29 SWAP9 0x4E SWAP8 SWAP11 0xCC 0x26 SWAP5 0xD9 LOG0 DUP16 LOG4 DUP9 0xD3 SWAP15 DUP11 0xD 0xD5 0xAF 0xEC DUP3 PUSH25 0x9D4A958D1AFC009AA064736F6C634300080900330000000000 ",
+              "sourceMap": "274:24:0:-:0;;;;;"
+            },
+            "gasEstimates": {
+              "creation": {
+                "codeDepositCost": "12600",
+                "executionCost": "66",
+                "totalCost": "12666"
+              }
+            },
+            "methodIdentifiers": {}
+          },
+          "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Raffle.sol\":\"Raffle\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Raffle.sol\":{\"content\":\"// Raffle\\n\\n// Enter the lottery\\n// Pick a randon winner (verifably random)\\n// Winner to be selected every x minutes => completely automated\\n\\n// chainlink oracle -> Randomness, Automated Execution (Chainlink Keeper)\\n\\n// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.7;\\n\\ncontract Raffle {\\n    \\n}\",\"keccak256\":\"0x72c9c6f20346d5a87fe9dfdb40de58814010ced3874c0c32646ab320c983cde9\",\"license\":\"MIT\"}},\"version\":1}",
+          "storageLayout": {
+            "storage": [],
+            "types": null
+          },
+          "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+          }
+        }
+      }
+    },
+    "sources": {
+      "contracts/Raffle.sol": {
+        "ast": {
+          "absolutePath": "contracts/Raffle.sol",
+          "exportedSymbols": {
+            "Raffle": [
+              2
+            ]
+          },
+          "id": 3,
+          "license": "MIT",
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 1,
+              "literals": [
+                "solidity",
+                "^",
+                "0.8",
+                ".7"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "249:23:0"
+            },
+            {
+              "abstract": false,
+              "baseContracts": [],
+              "canonicalName": "Raffle",
+              "contractDependencies": [],
+              "contractKind": "contract",
+              "fullyImplemented": true,
+              "id": 2,
+              "linearizedBaseContracts": [
+                2
+              ],
+              "name": "Raffle",
+              "nameLocation": "283:6:0",
+              "nodeType": "ContractDefinition",
+              "nodes": [],
+              "scope": 3,
+              "src": "274:24:0",
+              "usedErrors": []
+            }
+          ],
+          "src": "249:49:0"
+        },
+        "id": 0
+      }
+    }
+  }
+}
