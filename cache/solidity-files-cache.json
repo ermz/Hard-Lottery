@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/edsonramirez/PythonProject/python_web3/hard-lottery/contracts/Raffle.sol": {
-      "lastModificationDate": 1661142670546,
-      "contentHash": "e3f1c70d9bf293f38c733d1567044d81",
+      "lastModificationDate": 1661145525588,
+      "contentHash": "7c435d2c6dc626e6a48a03b50e875ce4",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
         "version": "0.8.9",
